@@ -1,1 +1,0 @@
-https://github.com/medival/a433-microservices/tree/kubernetes-manifest/kubernetes

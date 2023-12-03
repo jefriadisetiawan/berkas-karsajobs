@@ -1,0 +1,4 @@
+github : https://github.com/jefriadisetiawan/a433-microservices
+dockerhub :
+	karsajobs : https://hub.docker.com/r/jefriadisetiawan/karsajobs
+	karsajobs-ui : https://hub.docker.com/r/jefriadisetiawan/karsajobs-ui

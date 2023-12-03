@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# melakukan build dari dockerfile
+docker build -t karsajobs-ui:latest .
+
+# cek list docker images yang ada
+docker images
+
+# push docker images ke docker hub
+cat ../dockerpass.txt | docker login --username jefriadisetiawan --password-stdin
+docker tag karsajobs-ui:latest jefriadisetiawan/karsajobs-ui:latest
+docker push jefriadisetiawan/karsajobs-ui:latest
